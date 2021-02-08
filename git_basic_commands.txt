@@ -8,3 +8,4 @@ $ git init
 	$git log
 	$git diff
 $ git reset HEAD <file name>
+$ git remote add origin https://github.com/Atharva-Tikhe/linuxthings/
