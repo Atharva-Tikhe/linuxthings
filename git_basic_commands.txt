@@ -1,0 +1,10 @@
+$ git config --global user.name "Atharva-Tikhe"
+$ git config --global user.email "atharvatikhe22@gmail.com"
+$ git config --global color.ui true
+$ git config --global core.editor vim
+$ git init 
+	$git add <file name>
+	$git commit <file name>
+	$git log
+	$git diff
+$ git reset HEAD <file name>
