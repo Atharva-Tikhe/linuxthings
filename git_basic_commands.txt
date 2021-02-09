@@ -1,4 +1,3 @@
-
 $ git config --global user.name "Atharva-Tikhe"
 $ git config --global user.email "atharvatikhe22@gmail.com"
 $ git config --global color.ui true
@@ -9,5 +8,13 @@ $ git init
 	$git log
 	$git diff
 $ git reset HEAD <file name>
-$ git remote add origin https://github.com/Atharva-Tikhe/linuxthings/
-$ git push origin master/main
+
+
+for remote repo pushing -->
+git remote rename origin upstream
+git remote add origin URL_TO_GITHUB_REPO
+git push origin master
+
+
+for pulling patches -->
+git pull upstream master && git push origin master
